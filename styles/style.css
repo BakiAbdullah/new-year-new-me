@@ -39,7 +39,7 @@
   text-align: right;
   padding: 55px 150px;
 }
-.banner_heading{
+.banner_heading {
   color: #151414;
   font-weight: 700;
   font-size: 65px;
@@ -61,3 +61,25 @@
   border: none;
   padding: 16px 22px;
 }
+
+/* my failures section */
+.my_failures_section {
+  display: flex;
+  gap: 120px;
+  padding: 95px 170px;
+  align-items: center;
+}
+.section_title {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 47px;
+}
+.list_items li {
+  list-style: none;
+  margin-bottom: 10px;
+}
+.list_items .fa-check {
+  color: #16d887;
+  margin-right: 15px;
+}
+/* my failures section ends */
