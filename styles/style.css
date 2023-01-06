@@ -17,7 +17,7 @@
 .navbar {
   display: flex;
   justify-content: space-between;
-  padding: 30px 150px;
+  padding: 20px 150px;
 }
 .nav_item a {
   text-decoration: none;
