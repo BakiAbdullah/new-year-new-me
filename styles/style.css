@@ -65,9 +65,12 @@
 /* my failures section */
 .my_failures_section {
   display: flex;
-  gap: 120px;
-  padding: 95px 170px;
+  gap: 100px;
+  padding: 95px 120px;
   align-items: center;
+}
+.image_section img{
+ margin-left: 80px;
 }
 .section_title {
   font-weight: 700;
