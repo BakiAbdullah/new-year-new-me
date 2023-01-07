@@ -6,14 +6,6 @@
 }
 
 /* Nav Section Starts */
-.banner_container {
-  background-image: url(../images/banner/banner1.png);
-  background-repeat: no-repeat;
-  background-position: cover;
-  background-size: cover;
-  height: 100vh;
-}
-
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -25,6 +17,9 @@
   font-size: 18px;
   font-weight: 600;
 }
+.nav_item a:hover {
+  color: #f15b22;
+}
 .nav_item {
   display: flex;
   gap: 40px;
@@ -34,6 +29,15 @@
   color: #f15b22;
 }
 /* Nav Section Ends */
+
+/* Banner Section */
+.banner_container {
+  background-image: url(../images/banner/banner1.png);
+  background-repeat: no-repeat;
+  background-position: cover;
+  background-size: cover;
+  height: 100vh;
+}
 
 .banner_content {
   text-align: right;
@@ -61,6 +65,7 @@
   border: none;
   padding: 16px 22px;
 }
+/* Banner Section End
 
 /* my failures section */
 .my_failures_section {
@@ -86,11 +91,11 @@
   color: #16d887;
   margin-right: 15px;
 }
-.btn-purple{
+.btn-purple {
   font-weight: 600;
   font-size: 20px;
   color: #fff;
-  background-color: #7246F0;
+  background-color: #7246f0;
   border-radius: 5px;
   border: none;
   padding: 15px 28px;
@@ -153,33 +158,49 @@
 
 /* Footer section */
 
-.footer_container{
+.footer_container {
   background-color: #151414;
-  height: 600px;
+  height: 570px;
   margin-top: 100px;
 }
-.footer_section{
+.footer_section {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 300px;
+  gap: 350px;
   color: #fff;
+  padding: 100px 0;
 }
 
-.footer_right input{
+.footer_desc {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  margin: 20px 0;
+}
+.footer_left img {
+  margin-right: 10px;
+  height: 40px;
+}
+
+.footer_right input {
   width: 250px;
   padding: 20px;
-  margin-top: 30px;
+  margin: 30px 0;
   display: block;
   border-radius: 10px;
   border: 1px solid #fff;
   background-color: transparent;
-  
 }
-::placeholder{
+::placeholder {
   color: rgb(233, 233, 233);
+  font-size: 18px;
 }
-input:focus{
+input:focus {
   outline: none;
+}
+.copy {
+  text-align: center;
+  color: #fff;
 }
 /* Footer section ends */
