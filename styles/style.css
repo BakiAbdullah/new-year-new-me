@@ -113,3 +113,30 @@
 }
 
 /* My Plans section ends */
+
+/* Call to Action */
+.call_to_action {
+  width: 1100px;
+  height: 300px;
+  margin: 30px auto;
+  border-radius: 8px;
+  background-image: url(../images/gradient2.png), url(../images/watch.png);
+  background-repeat: no-repeat;
+}
+
+.btn-secondary {
+  font-weight: 600;
+  font-size: 20px;
+  color: #f15b22;
+  background-color: #fff;
+  border-radius: 5px;
+  border: none;
+  padding: 15px 28px;
+  margin: 30px 0;
+}
+
+.cta_container {
+  padding: 55px;
+  color: #fff;
+}
+/* Call to Action Ends */
