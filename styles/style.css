@@ -86,6 +86,16 @@
   color: #16d887;
   margin-right: 15px;
 }
+.btn-purple{
+  font-weight: 600;
+  font-size: 20px;
+  color: #fff;
+  background-color: #7246F0;
+  border-radius: 5px;
+  border: none;
+  padding: 15px 28px;
+  margin: 30px 0;
+}
 /* my failures section ends */
 
 /* My Plans section */
@@ -116,7 +126,7 @@
 
 /* Call to Action */
 .call_to_action {
-  width: 1100px;
+  width: 1140px;
   height: 300px;
   margin: 30px auto;
   border-radius: 8px;
@@ -140,3 +150,36 @@
   color: #fff;
 }
 /* Call to Action Ends */
+
+/* Footer section */
+
+.footer_container{
+  background-color: #151414;
+  height: 600px;
+  margin-top: 100px;
+}
+.footer_section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 300px;
+  color: #fff;
+}
+
+.footer_right input{
+  width: 250px;
+  padding: 20px;
+  margin-top: 30px;
+  display: block;
+  border-radius: 10px;
+  border: 1px solid #fff;
+  background-color: transparent;
+  
+}
+::placeholder{
+  color: rgb(233, 233, 233);
+}
+input:focus{
+  outline: none;
+}
+/* Footer section ends */
