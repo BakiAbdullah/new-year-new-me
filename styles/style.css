@@ -68,9 +68,10 @@
   gap: 100px;
   padding: 95px 120px;
   align-items: center;
+  justify-content: center;
 }
-.image_section img{
- margin-left: 80px;
+.image_section img {
+  margin-left: 80px;
 }
 .section_title {
   font-weight: 700;
@@ -86,3 +87,29 @@
   margin-right: 15px;
 }
 /* my failures section ends */
+
+/* My Plans section */
+.plans_container {
+  text-align: center;
+}
+
+.my_plans_section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 90px;
+  padding: 95px 160px;
+}
+.plans_section_title {
+  font-weight: 700;
+  font-size: 26px;
+  color: #151414;
+  padding: 20px 0;
+}
+.plans_description {
+  font-weight: 600;
+  font-size: 22px;
+  color: #908f8f;
+}
+
+/* My Plans section ends */
